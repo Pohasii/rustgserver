@@ -1,0 +1,8 @@
+namespace messages_from;
+
+table Vec2 {
+    x: float;
+    y: float;
+}
+
+root_type Vec2;

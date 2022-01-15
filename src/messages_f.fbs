@@ -1,0 +1,15 @@
+namespace messages_to;
+
+table Message {
+    players: [Game_Object];
+}
+
+struct Game_Object {
+    id: uint8;
+    obj_type: uint8;
+    x: float;
+    y: float;
+}
+
+root_type Message;
+
